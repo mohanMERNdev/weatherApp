@@ -1,0 +1,56 @@
+/* src/WeatherService.css */
+
+.weather-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f4f8; /* light grey background */
+    color: #333; /* dark grey text */
+  }
+  
+  h1 {
+    color: #333; /* dark grey text */
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* light grey border */
+    border-radius: 4px;
+    background-color: #fff; /* white background */
+    color: #333; /* dark grey text */
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF; /* blue button */
+    color: #fff; /* white text */
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* darker blue on hover */
+  }
+  
+  .weather-card {
+    background-color: #fff; /* white background */
+    border: 1px solid #ccc; /* light grey border */
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: left;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .error {
+    color: red; /* red error text */
+    margin-top: 20px;
+  }
+  
