@@ -1,5 +1,3 @@
-// src/App.js
-
 import React from 'react';
 import WeatherService from './WeatherService';
 import './App.css';
