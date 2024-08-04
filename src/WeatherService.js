@@ -30,7 +30,7 @@ class WeatherService extends React.Component {
   render() {
     return (
       <div className="weather-container">
-        <h1>Weather Information Service</h1>
+        <h1>Urban Weather Forecast</h1>
         <input 
           type="text" 
           value={this.state.city} 
